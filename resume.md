@@ -45,6 +45,7 @@ Black Hat Europe 2015 Training, 10-11 Nov. 2015.
   - Developed methods of achieving continuous integration and continuous delivery using Git, Drone, and SaltStack
   - Achieved full-stack, automated deployment through use of docker-compose
 - Project lead of Strelka, an open-source file scanning system written in Python 3
+  - Used for gathering intelligence and threat hunting/detection
   - Supports 60+ unique types of files
   - Designed to scan 100s of millions of files per day
   - Integration with NSM sensors
