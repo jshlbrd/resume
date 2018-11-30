@@ -26,15 +26,28 @@ Black Hat Europe 2015 Training, 10-11 Nov. 2015.
 #### Professional Experience
 ##### Lead Engineer - Threat Detection Operations
 ##### Target (March 2017 - Present)
-- Acts as lead developer for Target's 1800+ network security monitoring (NSM) sensor deployment
+- Acts as lead developer for Target's 1,800+ network security monitoring (NSM) sensor deployment
+  - Led the on-boarding of 4 new NSM applications
+  - Develops custom Bro scripts and Suricata rules
+    - Identify attacker tactics, techniques, and procedures (TTPs)
+    - Logging additional network metadata from HTTP, SMTP, and TLS
+    - Perform reliable, high-volume file extraction (>100million files per day)
+  - Developed continuous integration / continuous delivery system for updating Suricata rules
+  - Developed system that utilizes ZeroMQ to enable centralized, authenticated packet capture retrieval from distributed sensors
+  - Developed Linux-based methods of rate limiting outbound network traffic (for use in bandwidth-limited networks)
+- Provides technical guidance to 3-person NSM engineering team
+  - Application tuning
+  - Metrics collection and monitoring
+  - System and Git repository layout
+- Contributed significant engineering work on a 9-month project to convert NSM applications from bare metal installs to Docker containers
+  - Converted 10 software packages to Docker containers
+  - Designed methodology for maximizing system resources through a combination of application CPU pinning and Docker CPU isolation
+  - Developed methods of achieving continuous integration and continuous delivery using Git, Drone, and SaltStack
+  - Achieved full-stack, automated deployment through use of docker-compose
 - Project lead of Strelka, an open-source file scanning system written in Python 3
   - Supports 60+ unique types of files
   - Designed to scan 100s of millions of files per day
   - Integration with NSM sensors
-- Acted as a subject matter expert and contributed significant engineering work on a 9-month project to convert NSM sensor software from bare metal installs to Docker containers
-  - Converted 10 software packages to Docker containers
-  - Developed methods of achieving continuous integration and continuous delivery using Git, Drone, and SaltStack
-  - Achieved full-stack, automated deployment through use of docker-compose 
 - Works with Target's threat intelligence and red teams to improve detection across multiple data platforms (network, endpoint, authentication)
 ##### Security Technologist (Product Development)
 ##### Sqrrl (May 2016 - February 2017)
@@ -70,4 +83,4 @@ Black Hat Europe 2015 Training, 10-11 Nov. 2015.
 #### Skills and Technology
 - Skills: Threat detection engineering, threat hunting, incident investigation, network security monitoring, open-source intelligence collection, malware analysis
 - Languages: Python, Bash, Bro, Go
-- Technology: Docker, Git, SaltStack, Bro, Suricata, Splunk/Kibana, PassiveTotal, CrowdStrike Falcon Endpoint, Volatility
+- Technology: Docker, Git, SaltStack, ZeroMQ, Elastic Beats, Telegraf, Bro, Suricata, Splunk/Kibana, PassiveTotal, CrowdStrike Falcon Endpoint, Volatility
