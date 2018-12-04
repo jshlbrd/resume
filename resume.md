@@ -84,4 +84,4 @@ Black Hat Europe 2015 Training, 10-11 Nov. 2015.
 #### Skills and Technology
 - Skills: Threat detection engineering, threat hunting, incident investigation, network security monitoring, open-source intelligence collection, malware analysis
 - Languages: Python, Bash, Bro, Go
-- Technology: Docker, Git, SaltStack, ZeroMQ, Elastic Beats, Telegraf, Bro, Suricata, Splunk/Kibana, PassiveTotal, CrowdStrike Falcon Endpoint, Volatility
+- Technology: Docker, Git, SaltStack, ZeroMQ, Elastic Beats, Telegraf, Bro, Suricata, YARA, Splunk/Kibana, PassiveTotal, CrowdStrike Falcon Endpoint, Volatility
