@@ -54,7 +54,7 @@ security conferences
 - Publicly presented technical material related to the practice of threat hunting and threat detection through blogs and webinars
 ##### Senior Consultant <br/> CrowdStrike Professional Services (June 2014 - April 2016)
 - Performed threat hunting, network forensics, and incident response for Fortune 500 clients
-  - Participated in 10+ engagements across unique industries, including aviation, entertainment, and manufacturing
+  - Participated in 12+ engagements across unique industries, including aviation, entertainment, and manufacturing
 - Primary researcher and developer for CrowdStrike Services' NSM platform
   - Expanded metadata collection by creating new protocol analyzers for Bro, including the open-source RDP analyzer, and integrating Laika BOSS
   - Boosted threat detection coverage by creating dozens of private and open-source Bro scripts
