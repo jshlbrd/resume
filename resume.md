@@ -1,28 +1,33 @@
-### Josh Liburdi — liburdi.joshua@gmail.com
+## Josh Liburdi <br>email: liburdi.joshua@gmail.com
 #### Employment
 ##### Target Corporation. Lead Engineer (Threat Detection Operations). March 2017 - Present.</span>
 - Lead developer for Target's global 1,800+ network security monitoring (NSM) deployment
-- Created Strelka, an open-source file analysis system built on Python 3.6 and ZeroMQ
+  - Developed dozens of custom Bro/Zeek scripts and Suricata rules, including detection of attacker tactics and logging new network metadata from HTTP, SMTP, and TLS
+- Created Strelka, an open-source file analysis system built on Python 3.6, YARA, and 0MQ
+  - Supports 60+ types of files, designed to scan hundreds of millions of files per day
 - Contributed crucial design and engineering work on a 9-month project to upgrade and re-engineer NSM platform to use Docker containers
-- Designed and developed tool-agnostic packet capture retrieval system using gRPC
+  - Developed methodology for balancing server resources via CPU pinning and isolation
+- Designed and developed a tool-agnostic packet capture retrieval system using gRPC
 - Developed continuous delivery systems for Suricata and YARA that reduced rule deployment time from days to minutes
 ##### Sqrrl (acquired by Amazon). Research and Development. May 2016 - February 2017.
 - Led research on attacker tactics that leverage DNS which defined a major product release (Sqrrl v2.7) and increased customer-facing detection analytics by 50%
 - Regularly created, tested, and validated new threat hunting hypotheses and techniques across endpoint, network, and file metadata
+  - Significant focus on testing effectiveness of underutilized visualization techniques
 ##### CrowdStrike. Senior Consultant. June 2014 - April 2016.
 - Performed threat hunting and incident response for Fortune 500 customers
-- Boosted productivity of investigation and analysis by building a custom Splunk application that unified event data from four network detection tools
-- Created RDP analyzer for Bro/Zeek (included in open-source project)
-- Created and taught two threat hunting training courses
+- Lead researcher and developer for CrowdStrike Services' NSM platform
+  - Boosted productivity of investigation and analysis by building a custom Splunk application that unified event data from four network detection tools
+  - Created RDP analyzer for Bro/Zeek (included in open-source project)
+- Created and taught two threat hunting training courses (one publicly taught at Black Hat)
 ##### General Electric. Analyst (Detection Operations, CIRT). May 2013 – June 2014.
-- Lead analyst for GE's global 450+ Bro/Zeek deployment
-- Led a 2-month project that proved viability of heuristic detection for attacker tactics
+- Led a 2-month project that proved precise, heuristic detection of attacker tactics was feasible across GE's global 450+ Bro/Zeek deployment
+- Developed methods of validating, enriching, and scaling tens of thousands of indicators of compromise (IOCs) across the enterprise
 
 #### Education
 ##### Eastern Michigan University. Bachelor of Science, Information Assurance. April 2013.
 
 #### Skills
-- Programming/DevOps: Python, ZeroMQ, gRPC, Bash, Go, Git, Docker, SaltStack, Drone
+- Programming/DevOps: Python, ZeroMQ/0MQ, gRPC, Go, Git, Docker, SaltStack, Drone
 - Industry: Bro/Zeek, Suricata, YARA, Splunk, Elastic Beats, PassiveTotal, Shodan, Volatility
 
 #### Community Contributions
