@@ -9,7 +9,7 @@
   - Developed methodology for balancing server resources via CPU pinning and isolation
 - Designed and developed a tool-agnostic packet capture retrieval system using gRPC
 - Developed continuous delivery systems for Suricata and YARA that reduced rule deployment time from days to minutes
-##### Sqrrl (acquired by Amazon). Research and Development. May 2016 - February 2017.
+##### Sqrrl (acquired by Amazon). Research and Development. May 2016 - March 2017.
 - Led research on attacker tactics that leverage DNS which defined a major product release (Sqrrl v2.7) and increased customer-facing detection analytics by 50%
 - Regularly created, tested, and validated new threat hunting hypotheses and techniques across endpoint, network, and file metadata
   - Significant focus on testing effectiveness of underutilized visualization techniques
