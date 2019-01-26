@@ -1,13 +1,14 @@
 ## Josh Liburdi <br>email: liburdi.joshua@gmail.com
 #### Employment
 ##### Target Corporation. Lead Engineer (Threat Detection Operations). March 2017 - Present.</span>
-- Lead developer for Target's global 1,800+ network security monitoring (NSM) deployment
+- Lead developer for Target's 1,800+ sensor network security monitoring (NSM) deployment
   - Developed dozens of custom Bro/Zeek scripts and Suricata rules, including detection of attacker tactics and logging new network metadata from HTTP, SMTP, and TLS
+  - Developed framework for stable, high-volume file extraction (~400 files/second)
 - Created Strelka, an open-source file analysis system built on Python 3.6, YARA, and 0MQ
   - Supports 60+ types of files, designed to scan hundreds of millions of files per day
 - Contributed crucial design and engineering work on a 9-month project to upgrade and re-engineer NSM platform to use Docker containers
   - Developed methodology for balancing server resources via CPU pinning and isolation
-- Designed and developed a tool-agnostic packet capture retrieval system using gRPC
+- Designed and developed a secure, tool-agnostic packet capture (PCAP) retrieval system using gRPC that reduced PCAP retrieval time from minutes to seconds
 - Developed continuous delivery systems for Suricata and YARA that reduced rule deployment time from days to minutes
 ##### Sqrrl (acquired by Amazon). Research and Development. May 2016 - March 2017.
 - Led research on attacker tactics that leverage DNS which defined a major product release (Sqrrl v2.7) and increased customer-facing detection analytics by 50%
@@ -19,8 +20,8 @@
   - Boosted productivity of investigation and analysis by building a custom Splunk application that unified event data from four network detection tools
   - Created RDP analyzer for Bro/Zeek (included in open-source project)
 - Created and taught two threat hunting training courses (one publicly taught at Black Hat)
+
 ##### General Electric. Analyst (Detection Operations, CIRT). May 2013 – June 2014.
-- Led a 2-month project that proved precise, heuristic detection of attacker tactics was feasible across GE's global 450+ Bro/Zeek deployment
 - Developed methods of validating, enriching, and scaling tens of thousands of indicators of compromise (IOCs) across the enterprise
 
 #### Education
