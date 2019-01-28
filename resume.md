@@ -11,7 +11,7 @@
 - Designed and developed a secure, tool-agnostic packet capture (PCAP) retrieval system using gRPC that reduced PCAP retrieval time from minutes to seconds
 - Developed continuous delivery systems for Suricata and YARA that reduced rule deployment time from days to minutes
 ##### Sqrrl (acquired by Amazon). Research and Development. May 2016 - March 2017.
-- Led research on attacker tactics that leverage DNS which defined a major product release (Sqrrl v2.7) and increased customer-facing detection analytics by 50%
+- Led research on attacker tactics that leverage DNS which fully defined a product release (Sqrrl v2.7) and increased customer-facing detection analytics by 50%
 - Regularly created, tested, and validated new threat hunting hypotheses and techniques across endpoint, network, and file metadata
   - Significant focus on testing effectiveness of underutilized visualization techniques
 ##### CrowdStrike. Senior Consultant. June 2014 - April 2016.
