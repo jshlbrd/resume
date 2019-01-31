@@ -42,6 +42,7 @@
 - "[Analyzing RDP Traffic with Bro](https://speakerdeck.com/jshlbrd/analyzing-rdp-traffic-with-bro)". Bro4Pros 2015, Feb. 2015.
 ##### Open-Source Projects
 - [Strelka](https://github.com/target/strelka) (Target, Lead)
+- [Stenographer](https://github.com/google/stenographer) (Google, contributor)
 - [Bro/Zeek](https://github.com/zeek/zeek) (ICSI, Contributor)
 - [Laika BOSS](https://github.com/lmco/laikaboss) (Lockheed Martin, Contributor)
 ##### Writing
