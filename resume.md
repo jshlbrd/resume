@@ -2,7 +2,7 @@
 #### Employment
 ##### Target Corporation. Lead Engineer (Cyber Fusion Center). March 2017 - Present.
 - Lead developer for Target's 1,800+ sensor network security monitoring (NSM) deployment
-  - Developed dozens of custom Bro/Zeek scripts and Suricata rules, including detection of attacker tactics and logging new network metadata from HTTP, SMTP, and TLS
+  - Developed dozens of custom Bro/Zeek scripts and Suricata rules, including detection of adversary tactics and logging new network metadata from HTTP, SMTP, and TLS
   - Developed framework for stable, high-volume file extraction (~400 files/second)
 - Created Strelka, an open-source file analysis system built on Python 3.6, YARA, and 0MQ
   - Supports 60+ types of files, designed to scan hundreds of millions of files per day
@@ -13,7 +13,7 @@
 - Developed continuous delivery systems for Suricata and YARA that reduced rule deployment time from days to minutes
 - Collaborates across the team and technology organization to ensure end user needs are met through quality and availability of telemetry data
 ##### Sqrrl (acquired by Amazon). Security Technologist (Research). May 2016 - March 2017.
-- Led research on attacker tactics that leverage DNS which fully defined a product release (Sqrrl v2.7) and increased customer-facing detection analytics by 50%
+- Led research on adversary tactics that leverage DNS which fully defined a product release (Sqrrl v2.7) and increased customer-facing detection analytics by 50%
 - Led endpoint research that focused on the effective use of process execution records
 - Regularly created, tested, and validated new threat hunting hypotheses and techniques across endpoint, network, and file metadata
   - Significant focus on testing effectiveness of underutilized visualization techniques
