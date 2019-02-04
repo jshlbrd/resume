@@ -18,7 +18,7 @@
 - Regularly created, tested, and validated new threat hunting hypotheses and techniques across endpoint, network, and file metadata
   - Significant focus on testing effectiveness of underutilized visualization techniques
 ##### CrowdStrike. Senior Consultant. June 2014 - April 2016.
-- Performed threat hunting and incident response for Fortune 500 customers
+- Used endpoint and network telemetry for incident response in Fortune 100 environments
 - Lead researcher and developer for CrowdStrike Services' NSM platform
   - Boosted productivity of investigation and analysis by building a custom Splunk application that unified event data from four network detection tools
   - Created RDP analyzer for Bro/Zeek (included in open-source project)
