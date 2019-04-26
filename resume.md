@@ -4,7 +4,7 @@
 - Lead developer for Target's 1,800+ sensor network security monitoring (NSM) deployment
   - Developed dozens of custom Bro/Zeek scripts and Suricata rules, including detection of adversary tactics and logging new network metadata from HTTP, SMTP, and TLS
   - Developed framework for stable, high-volume file extraction (~400 files/second)
-- Created Strelka, an open-source file analysis system built on Python 3.6, YARA, and 0MQ
+- Created Strelka, a static file analysis system built on gRPC, Go, Python 3.6, and YARA
   - Supports 60+ types of files, designed to scan hundreds of millions of files per day
 - Contributed crucial discovery, design, and development work on a 9-month project to upgrade and re-engineer NSM platform to use Docker containers
   - Created data-driven testing procedures and led selection of system components
@@ -36,7 +36,7 @@
 
 #### Community Contributions
 ##### Presentations
-- "Beyond AV: Detection-Oriented File Analysis". BSides San Francisco, Mar. 2019.
+- "[Beyond AV: Detection-Oriented File Analysis](https://speakerdeck.com/jshlbrd/beyond-av-detection-oriented-file-analysis)". BSides San Francisco, Mar. 2019.
 - "[Threat Hunting for Command and Control](https://www.slideshare.net/sqrrl/threat-hunting-for-command-and-control-activity)". Sqrrl webinar, Nov. 2016.
 - "[Beyond IDS: Practical Network Hunting](https://speakerdeck.com/jshlbrd/beyond-ids-practical-network-hunting)". BSides New York, Jan. 2016.
 - "[Adversary Hunting and Incident Response: Network Edition](https://www.blackhat.com/eu-15/training/adversary-hunting-and-incident-response-network-edition.html)". Black Hat EU, Nov. 2015.
