@@ -2,9 +2,9 @@
 #### Employment
 ##### Target Corporation. Lead Threat Intel Detection Engineer. March 2017 - Present.
 - Collaborates across cyber security organization (strategic intelligence, incident response, adversary simulation) to identify and mitigate emerging adversary tactics, techniques, and procedures (TTPs) by leading intelligence collection and detection engineering projects
-- Collaborates across IT services organization (endpoint security, proxy, cloud) to enable net-new data collection for the purposes of threat hunting and adversary detection
-- Leads development of Strelka (enterprise-scale file analysis)
-  - Parses full file content into events used in threat hunting and adversary detection
+- Collaborates across IT services organization (endpoint security, proxy, cloud) to enable net-new data collection for the purposes of intelligence collection, adversary detection, and threat hunting
+- Leads development of Strelka, an enterprise-scale file analysis system
+  - Parses full file content into JSON events at a data reduction rate of over 100x
   - ~300 million files processed daily from widely distributed endpoints and networks
 - Leads development of 1,800+ sensor network security monitoring (NSM) deployment
   - Develops metadata and analyzer extensions for Bro/Zeek that enable threat hunting
