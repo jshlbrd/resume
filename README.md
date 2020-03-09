@@ -1,6 +1,10 @@
 ## Josh Liburdi <br>email: liburdi.joshua@gmail.com
 #### Employment
-##### Target Corporation. Lead Threat Intel Detection Engineer. March 2017 - Present.
+##### Splunk. Senior Threat Hunter. September 2019 - Present.
+- Creator and lead of Splunk's Global Security threat hunting program, focused on proactively searching for security incidents across Splunk's cloud and corporate environments
+- Operationalized threat hunting program from ideation to production within 2 months
+- Produces average of 12 security-related findings per month, including 7 new detection signatures per month
+##### Target Corporation. Lead Threat Intel Detection Engineer. March 2017 - August 2019.
 - Collaborates across cyber security organization (strategic intelligence, incident response, adversary simulation) to identify and mitigate emerging adversary tactics, techniques, and procedures (TTPs) by leading intelligence collection and detection engineering projects
 - Collaborates across IT services organization (endpoint security, proxy, cloud) to enable net-new data collection for the purposes of intelligence collection, adversary detection, and threat hunting
 - Leads development of Strelka, an enterprise-scale file analysis system
