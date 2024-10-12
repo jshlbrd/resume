@@ -2,31 +2,39 @@
 
 ## Work Experience
 
-#### Staff Security Engineer, Security Operations. Brex. October 2020 - Present.
+#### Staff Security Engineer, Security Operations. Brex. August 2023 - Present.
 
-- Tech lead for Security Operations (Detection and Response, Corporate Security, and Cloud Security).
+- Tech lead for Detection and Response, Corporate Security, and Infrastructure Security.
   - Sets direction for team initiatives in collaboration with Security and Engineering leadership.
   - Acts as incident commander during high impact and sensitive security incidents.
-  - Leads relationships with mission critical security vendors, including Sumo Logic and Tines.
   - Provides guidance to dozens of contributors, managers, and stakeholders, including
     security and IT engineers, security and engineering leaders, compliance leads, and legal counsel.
-- Created Substation, a Go application / framework for building distributed security data pipelines.
+- Led cross-functional project to enforce FIDO2 authentication (MFA) for 1,300+ employees.
+  - Set strategic and technical direction for a group of 10+ contributors across 4 teams.
+  - Increased FIDO2 enrollment from 15% to 99% within 2.5 months.
+- Led cross-functional project to classify 40,000+ datapoints for GDPR, CCPA, and other regulations.
+  - Defined data classification standards and processes for 35+ teams across Engineering.
+  - Collaborated with Legal and Compliance to create an automated SLA notification system.
+- Led cross-functional project to improve authorization across the company's internal tools.
+  - Led 15+ contributors across 5 teams to implement role-based access control (RBAC) and just-in-time (JIT) access in Retool and SaaS applications.
+- Saved $250k annually across Engineering in early 2024 by consolidating tools across multiple teams.
+
+#### Senior Security Engineer, Detection and Response. Brex. October 2020 - August 2023.
+
+- Created Substation, a Go application for building observability and security data pipelines.
   - Normalizes and enriches all security event logs (50+ data sources) to a common data model.
-  - Processes 6+ billion events per day with 99.5+% of data delivered to SIEM within 3 minutes.
+  - Processes 6+ billion events per day with 99.5% of data delivered to SIEM within 3 minutes.
   - Deploys secure by default serverless resources to AWS in under 1 minute using Terraform.
+- Designed and developed a serverless task execution system written in Python.
+  - Collects event logs and enrichment data from 20+ internal systems and third party APIs.
+  - Uses AWS Lambda for compute, EventBridge for scheduling, and DynamoDB for task state.
 - Architected an in-house threat detection program, including processes and tooling.
   - Established technical standards for threat research, detection engineering, and threat hunting.
   - Built a Detection as Code pipeline written in Python that deploys from GitHub to Sumo Logic.
   - Designed a framework that correlates threat signals into intelligence-driven, risk-based alerts.
   - Wrote 400+ custom detection signals and alerts based on threat actor tactics and techniques.
-- Designed and developed a serverless task execution system written in Python.
-  - Collects event logs and enrichment data from 20+ internal systems and third party APIs.
-  - Uses AWS Lambda for compute, EventBridge for scheduling, and DynamoDB for task state.
 - Built a custom SOAR-based alert management system that automatically triages security alerts.
   - Reduced alert volume by 25% within first two weeks and 80% within first year of use.
-- Led cross-functional effort to enforce FIDO2 multifactor authentication (MFA) for 1,300+ employees.
-  - Set strategic and technical direction for a group of 10+ contributors across 4 teams.
-  - Increased FIDO2 enrollment from 15% to 99+% within 2.5 months.
 
 #### Senior Threat Hunter. Splunk. September 2019 - October 2020.
 
@@ -54,14 +62,14 @@
 
 - Performed threat hunting and security incident response for the Fortune 100.
 - Built a custom, NSM-based threat hunting and investigation Splunk application.
-- Created and taught two threat hunting training courses (one publicly taught at Black Hat).
+- Created and taught two threat hunting training courses (one publicly taught at Black Hat EU 2015).
 
 #### Detection Engineer. General Electric. May 2013 – June 2014.
 
 - Actively contributed to the removal of threat actors as part of an intelligence-driven CIRT.
 
 ## Education
-#### Eastern Michigan University. Bachelor of Science, Information Assurance. April 2013.
+#### Eastern Michigan University. Bachelor of Science, Information Assurance.
 
 ## Community Contributions
 #### Open-Source Projects
@@ -82,11 +90,4 @@
 - "[Achieving Exactly Once Semantics in AWS](https://joshliburdi.com/writing/2024_aws_exactly_once_semantics/)". Jul. 2024.
 - "[Bluenomicon: Building Loosely Coupled Threat Detection Systems](https://joshliburdi.com/writing/2023_bluenomicon/)". Splunk, Apr. 2023.
 - "[Elevating Security Alert Management Using Automation](https://medium.com/brexeng/elevating-security-alert-management-using-automation-828004ad596c)". Brex, Jan. 2023.
-- "[Announcing Substation](https://joshliburdi.com/writing/2022_announcing_substation/)". Brex, Oct. 2022.
 - "[Structured and Task-Driven Threat Hunting](https://joshliburdi.com/writing/2020_structured_threat_hunting/)". Mar. 2020.
-
-## Contact Information and Online Profiles
-- Email: REDACTED
-- Phone: REDACTED
-- [LinkedIn](https://www.linkedin.com/in/joshliburdi/)
-- [GitHub](https://github.com/jshlbrd)
