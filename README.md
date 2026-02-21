@@ -1,10 +1,32 @@
-# Josh Liburdi. 
+# Josh Liburdi.
 
 ## Work Experience
 
-#### Staff Security Engineer, Security Operations. Brex. August 2023 - Present.
+#### Principal Engineer, Security Operations. DoorDash. Jan 2025 - Present.
 
-- Tech lead for Detection and Response, Corporate Security, and Infrastructure Security.
+- Technical lead for global Security Operations / Cyber Defense organization.
+  - Defines technical and organizational strategy with the Director of Cyber Defense.
+  - Supports teams in detection and response, insider risk, threat intelligence, vulnerability management, offensive security, corporate security, and identity and access management.
+  - Provides guidance to dozens of global contributors, managers, and stakeholders, including
+    security engineers and analysts, security leaders, compliance leads, and legal counsel.
+- Led cross-functional project to consolidate multiple SIEM platforms across three global companies.
+  - Architected and planned multi-quarter project delivered by a group of 10+ contributors.
+  - Achieved 80%+ data migration for DoorDash to consolidated platform within 10 weeks.
+  - Designed and built petabyte-scale data warehouse used across all companies.
+- Led organization-wide initiatives for exploratory work in AI / LLM utilization.
+  - Prototyped and promoted use of AI (Claude Code) to improve efficiency and consistency.
+  - Hired and mentored the first data scientist in the Security department.
+- Led technical direction to centralize identity and access management across all companies.
+  - Architected and implemented a centralized identity governance platform.
+  - Reduced the average time to provision access from 22 hours to 2 minutes.
+- Wrote interviewing guidelines for security engineers across the Security department.
+  - Authored interview format used to consistently interview security engineering candidates.
+  - Enabled the rapid expansion of the department within 6 months (3x growth in Cyber Defense).
+- Saved $4M+ annually across the Security department in 2025 by consolidating vendor platforms, building internal tooling, and introducing process improvements.
+
+#### Staff Security Engineer, Security Operations. Brex. August 2023 - Jan 2025.
+
+- Technical lead for Detection and Response, Corporate Security, and Infrastructure Security.
   - Sets direction for team initiatives in collaboration with Security and Engineering leadership.
   - Acts as incident commander during high impact and sensitive security incidents.
   - Provides guidance to dozens of contributors, managers, and stakeholders, including
@@ -74,7 +96,7 @@
 ## Community Contributions
 #### Open-Source Projects
 
-- [Substation](https://github.com/brexhq/substation). Brex, Apr. 2021 - Present.
+- [Substation](https://github.com/brexhq/substation). Brex, Apr. 2021 - Jan 2025.
 - [Strelka](https://github.com/target/strelka). Target, Sep. 2018 - Aug. 2019.
 
 #### Select Presentations
