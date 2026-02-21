@@ -2,7 +2,7 @@
 
 ## Work Experience
 
-#### Principal Engineer, Security Operations. DoorDash. Jan 2025 - Present.
+#### Principal Engineer, Security Operations. DoorDash. January 2025 - Present.
 
 - Technical lead for global Security Operations / Cyber Defense organization.
   - Defines technical and organizational strategy with the Director of Cyber Defense.
@@ -24,7 +24,7 @@
   - Enabled the rapid expansion of the department within 6 months (3x growth in Cyber Defense).
 - Saved $4M+ annually across the Security department in 2025 by consolidating vendor platforms, building internal tooling, and introducing process improvements.
 
-#### Staff Security Engineer, Security Operations. Brex. August 2023 - Jan 2025.
+#### Staff Security Engineer, Security Operations. Brex. August 2023 - January 2025.
 
 - Technical lead for Detection and Response, Corporate Security, and Infrastructure Security.
   - Sets direction for team initiatives in collaboration with Security and Engineering leadership.
