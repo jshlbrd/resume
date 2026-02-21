@@ -4,25 +4,25 @@
 
 #### Principal Engineer, Security Operations. DoorDash. January 2025 - Present.
 
-- Technical lead for global Security Operations / Cyber Defense organization.
+- Technical lead for global Security Operations / Cyber Defense organization (50+ people).
   - Defines technical and organizational strategy with the Director of Cyber Defense.
   - Supports teams in detection and response, insider risk, threat intelligence, vulnerability management, offensive security, corporate security, and identity and access management.
   - Provides guidance to dozens of global contributors, managers, and stakeholders, including
     security engineers and analysts, security leaders, compliance leads, and legal counsel.
 - Led cross-functional project to consolidate multiple SIEM platforms across three global companies.
   - Architected and planned multi-quarter project delivered by a group of 10+ contributors.
-  - Achieved 80%+ data migration for DoorDash to consolidated platform within 10 weeks.
-  - Designed and built petabyte-scale data warehouse used across all companies.
+  - Achieved 80%+ data migration for DoorDash to consolidated platform within 2 months.
+  - Designed and built petabyte-scale data lake running on AWS (S3, Lambda, Snowflake).
 - Led organization-wide initiatives for exploratory work in AI / LLM utilization.
   - Prototyped and promoted use of AI (Claude Code) to improve efficiency and consistency.
   - Hired and mentored the first data scientist in the Security department.
 - Led technical direction to centralize identity and access management across all companies.
-  - Architected and implemented a centralized identity governance platform.
-  - Reduced the average time to provision access from 22 hours to 2 minutes.
+  - Architected and implemented a centralized identity governance platform (ConductorOne).
+  - Reduced average time to provision access for 6,000+ engineers from 22 hours to 2 minutes.
 - Wrote interviewing guidelines for security engineers across the Security department.
   - Authored interview format used to consistently interview security engineering candidates.
   - Enabled the rapid expansion of the department within 6 months (3x growth in Cyber Defense).
-- Saved $4M+ annually across the Security department in 2025 by consolidating vendor platforms, building internal tooling, and introducing process improvements.
+- Saved $4M+ annually across the Security department in 2025 by consolidating vendor platforms, building internal tooling, and introducing process improvements (cloud service optimization).
 
 #### Staff Security Engineer, Security Operations. Brex. August 2023 - January 2025.
 
