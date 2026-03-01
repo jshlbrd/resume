@@ -1,0 +1,136 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{parskip}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% Subsection formatting (job titles)
+\titleformat{\subsection}[runin]{\bfseries}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{6pt}{0pt}
+
+% Tighter list spacing
+\setlist[itemize]{nosep, leftmargin=1.5em, topsep=2pt}
+\setlist[itemize,2]{nosep, leftmargin=1.5em, topsep=0pt}
+
+% No page numbers
+\pagestyle{empty}
+
+% Link color
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue!70!black
+}
+
+\begin{document}
+
+%% Header
+\begin{center}
+  {\LARGE\bfseries Josh Liburdi}\\[3pt]
+  \href{https://www.linkedin.com/in/joshliburdi/}{linkedin.com/in/joshliburdi}
+\end{center}
+
+%% Summary
+\section{Summary}
+\begin{itemize}
+  \item Security leader with 13 years of experience building and scaling global security organizations (50+ people) across security engineering, detection and response, threat intelligence and hunting, cloud security, and corporate security.
+  \item Drives cross-functional strategy and implementation across security, engineering, compliance, and legal to deliver organization-wide initiatives such as SIEM consolidation, FIDO2 enforcement, identity governance, data classification, and AI adoption.
+  \item Builds enterprise-scale systems (petabyte-scale data lakes, identity governance for 6,000+ engineers) and delivers measurable business outcomes (implemented \$4M+ in annual savings, enabled 3x team growth in Security Operations).
+  \item Recognized for industry contributions including creating open-source security tools (Substation, Strelka), speaking at conferences (BSides SF, fwd:cloudsec, SANS), and publishing articles on detection engineering and threat hunting.
+\end{itemize}
+
+%% Work Experience
+\section{Work Experience}
+
+\textbf{Principal Security Engineer, DoorDash} \hfill January 2025 -- Present
+\begin{itemize}
+  \item Technical lead for global Security Operations organization (50+ people), setting technical vision and organizational strategy in collaboration with the Director across detection and response, threat intelligence, and corporate security.
+  \item Led SIEM consolidation across three global companies; architected and drove multi-quarter project with 10+ contributors, achieving 80\%+ data migration within 3 months and building a petabyte-scale data lake on AWS ingesting 85+ TB/day.
+  \item Led centralization of identity and access management across all companies by architecting and implementing \mbox{ConductorOne}, reducing average access provisioning time for 6,000+ engineers from 22 hours to 2 minutes.
+  \item Established hiring standards and interview framework for security engineers and directors, enabling 3x growth in Security Operations within 6 months and broader expansion of the Security department.
+  \item Drove AI adoption by promoting use of LLMs (Claude Code) and building an AI-driven knowledgebase of runbooks as code for incident triage, threat investigation, and detection engineering; hired and mentored Security's first data scientist.
+  \item Implemented \$4M+ in annual savings across Security and Engineering in 2025 by consolidating vendor platforms (\textasciitilde\$2M) and introducing process improvements such as cloud service optimization (\textasciitilde\$2M).
+\end{itemize}
+
+\textbf{Staff Security Engineer, Brex} \hfill October 2020 -- January 2025\\
+Promoted from Senior Security Engineer
+\begin{itemize}
+  \item Technical lead for detection and response, corporate security, and cloud security functions; served as incident commander during high impact and sensitive security incidents, driving post-incident improvements across teams in Engineering.
+  \item Created Substation, a Go application for building security data pipelines; normalizes and enriches 50+ data sources, processing 6+ billion events per day with 99.5\% delivered to SIEM within 3 minutes and an average cost of \textasciitilde\$20/TB.
+  \item Built an in-house threat detection program from the ground up with detection as code (Python, GitHub, Sumo Logic); designed a correlation framework that produces intelligence-driven, risk-based alerts from 400+ custom detection signals.
+  \item Designed a SOAR-based alert management system that automatically triages security alerts, reducing alert volume by 25\% within two weeks and 80\% within the first year.
+  \item Led enforcement of FIDO2 authentication (MFA) for 1,300+ employees, setting strategic and technical direction for 10+ contributors across 4 teams to increase enrollment from 15\% to 99\% within 2.5 months.
+  \item Led 15+ contributors across 5 teams to implement role-based access control (RBAC) and just-in-time (JIT) access across internal tools and SaaS applications.
+  \item Led classification of 40,000+ datapoints for GDPR, CCPA, and other regulations, defining data classification standards for 35+ teams and building an automated SLA notification system with Legal and Compliance.
+  \item Saved \$250k annually across Engineering in 2024 by consolidating tools across multiple teams.
+\end{itemize}
+
+\textbf{Senior Threat Hunter, Splunk} \hfill September 2019 -- October 2020
+\begin{itemize}
+  \item Founded and led Splunk's Global Security threat hunting program; defined program goals, objectives, and KPIs, operationalizing from ideation to production within 2 months.
+  \item Produced 20 findings per month, primarily resulting in new detections (15 new detection rules per month); trained Security Operations Center (SOC) of 12+ analysts on threat hunting procedures.
+\end{itemize}
+
+\textbf{Lead Threat Intel Detection Engineer, Target Corporation} \hfill March 2017 -- August 2019
+\begin{itemize}
+  \item Created Strelka, an enterprise static file analysis system (Python, Go) processing 300M+ files per day; adopted in security tools such as Security Onion, Sublime Security, and Material Security.
+  \item Managed 1,800+ sensor NSM/NIDS deployment, designing continuous delivery for rules that reduced deploy time from days to minutes and enabling high-volume file extraction (400+ files/sec) using Bro/Zeek.
+\end{itemize}
+
+\pagebreak
+\textbf{Threat Researcher, Sqrrl (acquired by Amazon / AWS)} \hfill May 2016 -- March 2017
+\begin{itemize}
+  \item Threat hunting subject matter expert for a startup of 50 people; led DNS-focused research that increased customer-facing detection analytics by 50\%.
+\end{itemize}
+
+\textbf{Senior Consultant, CrowdStrike} \hfill June 2014 -- April 2016
+\begin{itemize}
+  \item Conducted threat hunting and incident response for the Fortune 100; built a custom threat hunting Splunk application.
+  \item Created and taught two threat hunting training courses (one taught at Black Hat EU 2015).
+\end{itemize}
+
+\textbf{Detection Engineer, General Electric} \hfill May 2013 -- June 2014
+\begin{itemize}
+  \item Contributed to threat actor removal as part of an intelligence-driven CIRT.
+\end{itemize}
+
+%% Education
+\section{Education}
+\textbf{Eastern Michigan University} -- Bachelor of Science, Information Assurance
+
+%% Community Contributions
+\section{Community Contributions}
+
+\textbf{Open-Source Projects}
+\begin{itemize}
+  \item \href{https://github.com/brexhq/substation}{Substation}. Brex, Apr.\ 2021 -- Jan 2025.
+  \item \href{https://github.com/target/strelka}{Strelka}. Target, Sep.\ 2018 -- Aug.\ 2019.
+\end{itemize}
+
+\textbf{Select Presentations}
+\begin{itemize}
+  \item ``\href{https://www.youtube.com/watch?v=im5xfAHeiRo}{Reinventing ETL for Detection and Response Teams}''. BSides San Francisco, 2024.
+  \item ``\href{https://www.youtube.com/watch?v=x2l-GCFGOcs}{Billions Served: Processing Security Event Logs w/ the AWS Serverless Stack}''. fwd:cloudsec, 2023.
+  \item ``\href{https://www.youtube.com/watch?v=4A8JLV5a2Dw}{Building Better Hunt Data}''. SANS Threat Hunting Summit, 2021.
+  \item ``\href{https://youtu.be/j-wjXUs8k1M}{Beyond AV: Detection-Oriented File Analysis}''. BSides San Francisco, 2019.
+  \item ``\href{https://speakerdeck.com/jshlbrd/beyond-ids-practical-network-hunting}{Beyond IDS: Practical Network Hunting}''. BSides New York, Jan.\ 2016.
+\end{itemize}
+
+\textbf{Select Writing}
+\begin{itemize}
+  \item ``\href{https://joshliburdi.com/writing/2024_aws_exactly_once_semantics/}{Achieving Exactly Once Semantics in AWS}''. Jul.\ 2024.
+  \item ``\href{https://joshliburdi.com/writing/2023_bluenomicon/}{Bluenomicon: Building Loosely Coupled Threat Detection Systems}''. Splunk, Apr.\ 2023.
+  \item ``\href{https://medium.com/brexeng/elevating-security-alert-management-using-automation-828004ad596c}{Elevating Security Alert Management Using Automation}''. Brex, Jan.\ 2023.
+  \item ``\href{https://joshliburdi.com/writing/2020_structured_threat_hunting/}{Structured and Task-Driven Threat Hunting}''. Mar.\ 2020.
+\end{itemize}
+
+\end{document}
